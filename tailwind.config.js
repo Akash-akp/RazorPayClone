@@ -18,6 +18,12 @@ module.exports = {
         deepBlueHead: "#162f56",
         gray2: "#525a76",
       },
+      backgroundPosition: {
+        left2: '-18rem 0rem'
+      },
+      backgroundSize: {
+        bgsize1: '400rem 400rem'
+      }
     },
   },
   plugins: [],
