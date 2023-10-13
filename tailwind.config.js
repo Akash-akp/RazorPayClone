@@ -7,6 +7,7 @@ module.exports = {
         mullish: ["Mulish", "sans-serif"],
       },
       colors: {
+        bblue:"rgb(25,28,45)",
         deepBlue: "#02042a",
         lightBlue: "#2b84ea",
         lightBlue300: "#4b94ed",
@@ -22,7 +23,7 @@ module.exports = {
         left2: '-18rem 0rem'
       },
       backgroundSize: {
-        bgsize1: '400rem 400rem'
+        bgsize1: '167rem 120rem'
       }
     },
   },
