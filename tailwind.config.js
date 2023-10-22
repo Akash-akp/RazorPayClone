@@ -20,10 +20,12 @@ module.exports = {
         gray2: "#525a76",
       },
       backgroundPosition: {
-        left2: '-18rem 0rem'
+        left2: '-18rem 0rem',
+        left3: '0rem 0rem'
       },
       backgroundSize: {
-        bgsize1: '167rem 120rem'
+        bgsize1: '167rem 120rem',
+        bgsize2: '100% 64rem'
       }
     },
   },
