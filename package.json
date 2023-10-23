@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "devinstall": "npm install @tailwindcss/forms",
     "start": "vite"
   },
   "author": "",
@@ -15,6 +16,7 @@
     "vite": "^4.4.11"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.6",
     "feather": "^0.0.5"
   }
 }
