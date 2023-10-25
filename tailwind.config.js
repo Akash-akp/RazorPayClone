@@ -25,7 +25,9 @@ module.exports = {
       },
       backgroundSize: {
         bgsize1: '167rem 120rem',
-        bgsize2: '100% 64rem'
+        bgsize2: '100% 64rem',
+        bgsize3: '160rem 130rem',
+        bgsize4: '160rem 85rem',
       }
     },
   },

@@ -506,7 +506,7 @@
         </section>
 
         <!-- feature section 2 -->
-        <section class="bg-[url(Images/feature-section-2BG.svg)] bg-no-repeat pb-[33rem] bg-left2 bg-bgsize1 mt-10 pt-[16rem] relative overflow-x-hidden
+        <section class="bg-[url(Images/feature-section-2BG.svg)] bg-no-repeat pb-[33rem] bg-left md:bg-left2 bg-bgsize3 md:bg-bgsize1 mt-10 pt-[16rem] relative overflow-x-hidden
             ">
             <img src="" alt="">
 
@@ -551,12 +551,12 @@
                             </li>
                         </ul>
                         <!-- button and hyperlink -->
-                        <div class="flex flex-row items-center gap-4">
+                        <div class="relative top-5 md:flex md:flex-row md:items-center md:gap-4">
                             <button
-                                class="bg-lightBlue text-white py-[14px] px-[18px] border-none rounded-md font-mullish font-semibold hover:bg-lightBlue500 transition-all duration-200 relative w-[160px] text-left">Sign
+                                class="bg-lightBlue text-white py-[14px] px-[18px] border-none rounded-md font-mullish font-semibold hover:bg-lightBlue500 transition-all duration-200 relative w-full md:w-[160px] md:text-left">Sign
                                 Up
                                 <div
-                                    class="w-12 h-[60px] bg-greenLight absolute right-5 -top-1 skew-x-[20deg] flex justify-center items-center">
+                                    class="w-12 h-[60px] bg-greenLight absolute right-[calc(33%-25px)] md:right-5 -top-1 skew-x-[20deg] flex justify-center items-center">
                                     <svg viewBox="0 0 24 24" focusable="false"
                                         class="w-[20px] h-[20px] -skew-x-[20deg]">
                                         <path fill="currentColor"
@@ -565,7 +565,7 @@
                                     </svg>
                                 </div>
                             </button>
-                            <div class="flex items-center cursor-pointer group">
+                            <div class="absolute bottom-14 md:block flex items-center cursor-pointer group">
                                 <a href=""
                                     class="font-mullish cursor-pointer text-lightBlue font-bold group-hover:pointer group-hover:text-lightBlue300 transition-all duration-200">Know
                                     More </a>
@@ -574,7 +574,7 @@
                             </div>
                         </div>
                         <!-- right backgroud image -->
-                        <img src="Images/buisness-banking.png" alt="" class="absolute right-[30px] md:w-[400px] md:mt-[150px] md:block hidden">
+                        <img src="Images/buisness-banking.png" alt="" class="absolute right-[30px] md:w-[400px] md:mt-[150px] lg:w-[600px] lg:mt-0 md:block hidden">
                     </div>
                     <div class="w-full md:grid lg:grid-cols-3 md:grid-cols-2 md:gap-4 mt-[60px]">
 
@@ -715,7 +715,7 @@
                     </div>
                     <!-- demo section  -->
                     <div
-                        class="flex mt-12 h-12 items-center justify-between py-12 px-7 border-[0.5px] border-[#ffffff80] rounded-md">
+                        class="lg:flex hidden mt-12 h-12 items-center justify-between py-12 px-7 border-[0.5px] border-[#ffffff80] rounded-md">
 
                         <p class="text-xl text-white font-mullish font-light leading-[1.2]">
                             Check out the live demo to learn how RazorpayX works.
@@ -747,10 +747,10 @@
         <section class>
             <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <img src="Images/feature-section1-dottedrows.png" alt="" loading="lazy"
-                    class="absolute w-[233px] left-[300px] -top-[6rem] -z-[10]">
+                    class="absolute w-[233px] left-[300px] -top-[6rem] -z-[10] lg:block hidden">
                 <img src="Images/feature-section1-dottedrows.png" alt="" loading="lazy"
-                    class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-[10]">
-                <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[10]">
+                    class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-[10] lg:block hidden">
+                <div class="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[10]">
                     <div class="relative flex items-center">
                         <p class="text-deepBlueHead font-mullish font-black text-[40px] leading-[3rem] tracking-wide">
                             New in the <span class="text-lightBlue">Razorpay</span> <br> Product Suite
@@ -871,7 +871,7 @@
 
         <!-- core feature -->
         <section
-            class="w-full bg-[url(/Images/core-features-sectionBg.svg)] bg-no-repeat bg-bgsize2 bg-left3 pt-[200px] mt-5 pb-[230px] relative z-10">
+            class="w-full bg-[url(/Images/core-features-sectionBg.svg)] bg-no-repeat bg-bgsize4 lg:bg-bgsize2 bg-left3 pt-[200px] mt-5 pb-[230px] relative z-10">
             <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <h2 class="font-mullish font-bold text-2xl text-center text-white">Features</h2>
                 <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
